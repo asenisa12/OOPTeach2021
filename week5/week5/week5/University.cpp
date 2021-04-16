@@ -80,7 +80,7 @@ void University::add_student(const char *name, int number)
 		delete[]m_students;
 		m_students = tmp;
 	}
-	m_students[m_size++] = new Student(name, m_size - 1, false);
+	m_students[m_size++] = new Student(name, number, false);
 }
 
 Student& University::operator[](const int i)

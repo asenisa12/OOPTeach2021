@@ -1,6 +1,9 @@
 #pragma once
 
 
+class Subject;
+
+
 class Student
 {
 private:
@@ -14,4 +17,6 @@ public:
 	Student& operator=(const Student &other);
 	void print();
 	~Student();
+
+	friend class Subject;
 };

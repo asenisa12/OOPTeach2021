@@ -14,6 +14,7 @@ void Pizza::print_category()
 }
 FoodType Pizza::category()
 {
+	Food::category();
 	return PIZZA;
 }
 

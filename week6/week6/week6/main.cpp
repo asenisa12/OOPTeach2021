@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 #include "Pizza.h"
 class Animal
@@ -79,9 +80,17 @@ int main()
 
 	}
 
+	fstream fil;
+	fil.open("aaa", ios::trunc| ios::binary);
+
+	if (fil.flags() & ios::binary)
+	{
+		cout << "binary" << endl;
+	}
 
 
 	Pizza p(10, 50, 500, 12.40, PEPPERONI);
+
 
 	return 0;
 }

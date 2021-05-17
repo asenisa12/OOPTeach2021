@@ -27,12 +27,30 @@
     <ClCompile Include="Bomber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dropship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modership.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StarShip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Bomber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dropship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MotherShip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

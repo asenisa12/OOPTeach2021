@@ -2,6 +2,7 @@
 
 
 #include "StarShip.h"
+#include "MotherShip.h"
 #include <vector>
 using namespace std;
 
@@ -13,13 +14,15 @@ class Bomber : public StarShip
 	};
 
 	vector<Bomb> m_bombs;
-public:
 	Bomber();
+public:
+	Bomber(const Bomber&) = delete;
+	Bomber& operator=(const Bomber&) = delete;
 	void attack();
 	void get_info();
 	void reload_bomb();
 
 	~Bomber();
-
+	friend class MotherShip;
 
 };

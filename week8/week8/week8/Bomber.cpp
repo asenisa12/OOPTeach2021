@@ -9,6 +9,7 @@ void Bomber::attack()
 {
 	m_bombs.pop_back();
 	m_weight -= 2;
+	cout << "bomber attack "<< endl;
 
 }
 void Bomber::reload_bomb()

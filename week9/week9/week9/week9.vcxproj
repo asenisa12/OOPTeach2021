@@ -124,7 +124,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Set.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Set.h" />

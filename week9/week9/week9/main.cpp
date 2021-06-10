@@ -112,7 +112,33 @@ int main()
 	teamplate_cont_b.add_data(casted);
 	
 	Set<int> s;
-	s = s;
+
+	s.add_element(1);
+	s.add_element(2);
+	s.add_element(3);
+
+
+	Set<int> s2;
+
+	s2.add_element(6);
+	s2.add_element(2);
+	s2.add_element(7);
+
+
+	Set<int> s3 = s + s2;
+
+	for (size_t i = 0; i < s3.getSize(); i++)
+	{
+		cout << s3[i] << endl;
+	}
+
+	cout << endl;
+	Set<int> s4 = s * s2;
+
+	for (size_t i = 0; i < s4.getSize(); i++)
+	{
+		cout << s4[i] << endl;
+	}
 
 
 	return 0;
